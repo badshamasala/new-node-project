@@ -8,6 +8,10 @@ app.get('/users',(req,res)=>{
     res.json({message:"ok"})
 })
 
+app.get('/check',(req,res)=>{
+    res.json({message:"hello"})
+})
+
 app.listen(PORT,()=>{
     console.log(`Server is listening on port ${PORT}...`)
 })
